@@ -31,6 +31,17 @@ public class Hello {
             System.out.println("Print car");
         }
 
+        String makeOfCar = "Volkswagen";
+        //if makeOfCar is equal to volkswagen it is assigned to false or else true
+        boolean isDomestice = makeOfCar == "Volkswagen" ? false : true;
+        // since makeOfCar is equal to volkswagen it is assigned to false
+
+        //this if statement is asking if isDomestice is true, than print the statement
+        //or else no print
+        if(isDomestice){
+            System.out.println(" it is domestic of our country");
+        }
+
 
     }
 }
