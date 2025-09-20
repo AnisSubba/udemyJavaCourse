@@ -42,6 +42,21 @@ public class Hello {
             System.out.println(" it is domestic of our country");
         }
 
+        double d = 20.00;
+        double s = 80.00;
+        double sum = (d + s) * 100.00d;
+        System.out.println("Total Value " + sum);
+        //reminder is % which calculates if dividing the 40 to 10000 gives any reminder
+        double reminder = sum % 40.00d;
+        System.out.println("total reminder " + reminder);
+        boolean assign = reminder == 0.00d ? true : false;
+        System.out.println("isNoReminder " + assign);
+        if(!assign){
+            System.out.println("got some reminder");
+        }
+
+
+
 
     }
 }
