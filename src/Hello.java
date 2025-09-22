@@ -42,14 +42,15 @@ public class Hello {
             System.out.println(" it is domestic of our country");
         }
 
-        double d = 20.00;
-        double s = 80.00;
-        double sum = (d + s) * 100.00d;
+        double d = 20.50;
+        double s = 80.50;
+        //using Math package i can used round with which i can change the number keytype from double to long
+        long sum = Math.round((d + s) * 100.00);
         System.out.println("Total Value " + sum);
         //reminder is % which calculates if dividing the 40 to 10000 gives any reminder
-        double reminder = sum % 40.00d;
+        long reminder = sum % 40;
         System.out.println("total reminder " + reminder);
-        boolean assign = reminder == 0.00d ? true : false;
+        boolean assign = reminder <= 0.00 ? true : false;
         System.out.println("isNoReminder " + assign);
         if(!assign){
             System.out.println("got some reminder");
