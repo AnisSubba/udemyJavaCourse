@@ -28,7 +28,7 @@ public class KeyWords {
             System.out.println("Your score is less 4000");
 
         } else if (score < 1000) {
-            System.out.println("yout score is less than 1000");
+            System.out.println("Your score is less than 1000");
         }
         else {
             System.out.println("Your score is higher than 4000 ");
