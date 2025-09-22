@@ -18,20 +18,21 @@ public class KeyWords {
 
         if (gameOver) {
             finalScore += (levelComplete * bonues);
+            finalScore += 100;
             System.out.println(
                     " Your final score was " + finalScore
             );
         }
 
 
-        if (score <= 4000){
-            System.out.println("Your score is less 4000");
+        if (score <= 5000){
+            System.out.println("Your score is less 5000");
 
         } else if (score < 1000) {
             System.out.println("Your score is less than 1000");
         }
         else {
-            System.out.println("Your score is higher than 4000 ");
+            System.out.println("Your score is higher than 5000 ");
         }
 
 
