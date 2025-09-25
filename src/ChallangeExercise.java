@@ -46,7 +46,7 @@ public class ChallangeExercise {
 
 //    or
 
-    public static boolean alsoisLeapYear(int year) {
+    public static boolean alsoIsLeapYear(int year) {
         return (year >= 1 && year <= 9999) &&
                 ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0));
     }

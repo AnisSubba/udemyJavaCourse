@@ -32,6 +32,7 @@ public class Hello {
         }
 
         String makeOfCar = "Volkswagen";
+
         //if makeOfCar is equal to volkswagen it is assigned to false or else true
         boolean isDomestice = makeOfCar == "Volkswagen" ? false : true;
         // since makeOfCar is equal to volkswagen it is assigned to false
@@ -45,7 +46,7 @@ public class Hello {
         double d = 20.50;
         double s = 80.50;
 
-        //using Math package i can used round with which i can change the number keytype from double to long
+        //using Math package I can used round with which I can change the number keytype from double to long
         long sum = Math.round((d + s) * 100.00);
         System.out.println("Total Value " + sum);
 
