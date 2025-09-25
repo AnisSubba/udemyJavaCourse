@@ -3,22 +3,22 @@ public class MethodChallange {
     public static void main(String[] args) {
 
         int highScorePosition = calculateHighScorePosition(1500);
-        dispplayHighScorePosition("Anis", highScorePosition);
+        displayHighScorePosition("Anis", highScorePosition);
 
         highScorePosition = calculateHighScorePosition(1000);
-        dispplayHighScorePosition("Geoff", highScorePosition);
+        displayHighScorePosition("Geoff", highScorePosition);
 
         highScorePosition = calculateHighScorePosition(500);
-        dispplayHighScorePosition("Nik", highScorePosition);
+        displayHighScorePosition("Nik", highScorePosition);
 
        highScorePosition = calculateHighScorePosition(100);
-        dispplayHighScorePosition("Rob", highScorePosition);
+        displayHighScorePosition("Rob", highScorePosition);
 
         highScorePosition = calculateHighScorePosition(20);
-        dispplayHighScorePosition("lor", highScorePosition);
+        displayHighScorePosition("lor", highScorePosition);
     }
 
-    public static void dispplayHighScorePosition(String playerName, int highScorePosition) {
+    public static void displayHighScorePosition(String playerName, int highScorePosition) {
         System.out.println(playerName + " managed to get into position " + highScorePosition + " on the high score list");
     }
 
@@ -36,6 +36,5 @@ public class MethodChallange {
 
         return position;
     }
-
 
 }
