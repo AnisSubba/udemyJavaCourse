@@ -1,19 +1,19 @@
-import java.sql.SQLOutput;
-
 public class MethodClass {
 
     //method overloading
     public static void main(String[] args) {
 //          Lesson
-//        System.out.println("New score is " + calculateScore("Tim", 500));
-//        System.out.println(calculateScore(500));
+/*        System.out.println("New score is " + calculateScore("Tim", 500));
+        System.out.println(calculateScore(500));*/
 
 //        challenge exercise Inches
         System.out.println("5ft, 8in = " + convertToCentimeters(5, 8));
         System.out.println("68in = " + convertToCentimeters(68));
 
+
+
     }
-// lesson
+// Method lesson
     public static int calculateScore(String playerName, int score) {
         System.out.println("player " + playerName + " scored " + score + " points");
         return score * 100;
@@ -29,7 +29,7 @@ public class MethodClass {
         return 0;
     }
 
-//    Challenge exercise inches
+//    Challenge exercise - inches
 
     public static double convertToCentimeters(int inches){
 
@@ -45,8 +45,8 @@ public class MethodClass {
 
         return result;
 
-//      return convertToCentimeters((heightInFeet * 12) + heightInInches);
-//      return ((heightInFeet * 12) * 2.54);
+      /*return convertToCentimeters((heightInFeet * 12) + heightInInches);
+      return ((heightInFeet * 12) * 2.54);*/
 
     }
 
