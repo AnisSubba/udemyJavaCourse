@@ -2,7 +2,13 @@ public class SwitchMethod {
 
     public static void main(String[] args) {
 
-        int switchValue = 5;
+//        switchMethod(5);
+
+        String month = "XYZ";
+        System.out.println(month + " is in the  " + getQuarter(month) + " quarter ");
+    }
+
+    public static void switchMethod(int switchValue){
 
         switch (switchValue) {
             case 1:
@@ -18,5 +24,22 @@ public class SwitchMethod {
             default:
                 System.out.println("Value was neither 1 to 5 number");
         }
+    }
+
+
+
+    public static String getQuarter(String month) {
+
+
+        return switch (month) {
+            case "January", "February", "March" -> "1st";
+            case "April", "May", "June" -> "2nd";
+            case "July", "August", "September" -> "3rd";
+            case "October", "November", "December" -> "4th";
+            default -> {
+                String badResponce = month + " is bad";
+                yield badResponce;
+            }
+        };
     }
 }
