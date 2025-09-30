@@ -16,7 +16,7 @@ public class KeyWords {
 
 //        Calling a different method with argument attaached
         calculateScore(true, 1000, 9, 100);
-        int highScore = returnStatement(gameOver, score, levelComplete, bonues);
+        int highScore = dayOfWeekStatement(gameOver, score, levelComplete, bonues);
         System.out.println(" The High Score Is " + highScore);
 
 //      As this variable is already called no need to recall them with keywords, just using it will update the number for the execution below
@@ -24,7 +24,7 @@ public class KeyWords {
         levelComplete = 4;
         bonues = 50;
 
-        System.out.println(" The High Score Is " + returnStatement(gameOver, score, levelComplete, bonues));
+        System.out.println(" The High Score Is " + dayOfWeekStatement(gameOver, score, levelComplete, bonues));
 
         example();
 
@@ -70,7 +70,7 @@ public class KeyWords {
     }
 
 //    example of returning data in this case final score
-    public static int returnStatement(boolean gameOver, int score, int levelComplete, int bonus){
+    public static int dayOfWeekStatement(boolean gameOver, int score, int levelComplete, int bonus){
         int finalScore = score;
 
         if(gameOver) {

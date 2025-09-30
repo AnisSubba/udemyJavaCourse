@@ -2,9 +2,9 @@ public class SwitchMethod {
 
     public static void main(String[] args) {
 
-//        switchMethod(5);
+        switchMethod(5);
 
-        String month = "XYZ";
+        String month = "April";
         System.out.println(month + " is in the  " + getQuarter(month) + " quarter ");
     }
 
@@ -30,7 +30,6 @@ public class SwitchMethod {
 
     public static String getQuarter(String month) {
 
-
         return switch (month) {
             case "January", "February", "March" -> "1st";
             case "April", "May", "June" -> "2nd";
@@ -41,5 +40,25 @@ public class SwitchMethod {
                 yield badResponce;
             }
         };
+
+        /*switch (month) {
+            case "January":
+            case "February":
+            case "March":
+                dayOfWeek "1st";
+            case "April":
+            case "May":
+            case "June":
+                dayOfWeek "2nd";
+            case "July":
+            case "August":
+            case "September":
+                dayOfWeek "3rd";
+            case  "October":
+            case "November":
+            case "December":
+                dayOfWeek "4th";
+        }
+        dayOfWeek "bad";*/
     }
 }
