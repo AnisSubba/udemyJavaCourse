@@ -5,8 +5,6 @@ public class SecondsAndMinutesChallange {
         System.out.println(getDurationString(8900));
         System.out.println(getDurationString(90, 80));
 
-
-
     }
 
     /* Challenge exercise - second and minute
