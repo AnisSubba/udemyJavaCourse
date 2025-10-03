@@ -47,11 +47,8 @@ public class SwitchExercise {
                 String invalidDay = "The Number " + day + " = Not valid day assigned here";
                 yield invalidDay;
             }
-
         };
-
         System.out.println(dayOfWeek);
-
     }
 
     public static void printWeekDay(int day){
