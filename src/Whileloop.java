@@ -20,7 +20,7 @@ public class Whileloop {
             System.out.println(j);
             j++;
         }
-//        now chekcing do while rule using the same condition
+//        now checking do while rule using the same condition
         int a = 1;
         boolean isReady = false;
         do {

@@ -4,7 +4,7 @@ public class TheForLoop {
 
         int count = 0;
 
-        for (count = 1; count <=5; count++){
+        for (count = 1; count <= 5; count++){
             System.out.println(count);
         }
 
